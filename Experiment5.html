@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student Registration Form
+        </title>
+    </head>
+    <body>
+        <h1>
+            <center>
+                Student Registration Form
+            </center>
+        </h1>
+        <hr>
+        <form action = "submit.html" method = "post">
+
+            <label for = "fullname"> Full Name: </label>
+            <input type = "text" name = "fullname" placeholder = "Enter your full name" required>
+
+            <br> <br>
+
+            <label for = "email"> Email: </label>
+            <input type = "email" name = "email" placeholder = "Enter valid email address" required>
+
+            <br> <br>
+
+            <label for = "password"> Password: </label>
+            <input type = "password" name = "password" placeholder = "Enter password" required>
+            
+            <br> <br>
+
+            <label for = "gender"> Gender: </label>
+            <input type = "radio"> Male
+            <input type = "radio"> Female
+            <input type = "radio"> Other
+
+            <br> <br>
+
+            <label for = "course"> Course: </label>
+            <select name = "course">
+                <option> --Select Course--</option>
+                <option> B.Tech </option>
+                <option> BCA </option>
+                <option> MBA </option>
+                <option> MCA </option>
+            </select>
+
+            <br> <br>
+
+            <label for = "contact"> Contact No: </label>
+            <input type = "tel" name = "contact" placeholder = "Enter phone number" required>
+
+            <br> <br>
+
+            <label for = "address"> Address: </label>
+            <br>
+            <textarea name = "Address" placeholder = "Enter your address" required></textarea>
+
+            <br> <br>
+
+            <input type="submit" value="Register"> 
+            <input type="reset" value="Clear">
+        </form>
+        <hr>
+        <p>
+            <center>
+                &copy; 2025 Student Registration Portal
+            </center>
+        </p>
+    </body>
+</html>
